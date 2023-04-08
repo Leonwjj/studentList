@@ -1,0 +1,12 @@
+.cuz-select {
+    &+.cuz-select {
+        margin-left: 20px;
+    }
+
+    .select {
+        width: 200px;
+        height: 32px;
+        border-radius: 0;
+        font-size: 14px;
+    }
+}

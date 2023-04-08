@@ -1,0 +1,44 @@
+ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+
+    &:hover,
+    &.active {
+        background-color: rgba($color: #ffffff, $alpha: 0.85);
+
+        a {
+            color: black;
+        }
+    }
+
+    a {
+        color: white;
+        // &:link {
+        //     color: black;
+        // }
+
+        // &:hover {
+        //     color: black;
+        // }
+
+        // a:active {
+        //     color: black;
+        // }
+
+        // a:visited {
+        //     color: black;
+        // }
+    }
+
+    &+li {
+        margin-left: 20px;
+    }
+}

@@ -1,0 +1,27 @@
+.modal {
+    position: fixed;
+    z-index: 999;
+    top: 20%;
+    left: 50%;
+    width: 300px;
+    margin-left: -150px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px #00000026;
+
+    &.hidden {
+        display: none;
+    }
+}
+label {
+  display: inline-block;
+  width: 100px;
+}
+.footer {
+  margin-top: 30px;
+  text-align: center;
+  button+button {
+    margin-left: 20px;
+  }
+}
